@@ -170,6 +170,7 @@ const projectsIntro = gsap.timeline({
   scrollTrigger:{
     trigger: '.projects',
     start: 'top center',
+    toggleActions: "restart none none reset"
   }
 })
 
@@ -200,14 +201,64 @@ falcon9rocket.fromTo('.projects__svg__Vector48', {fill: 'red'}, {duration: 2, fi
   .to(['.projects__svg__rocket', '.projects__svg__fire'], {duration: 3, y: '0px', opacity: 1}, '+=4')
   .to('.projects__svg__fire', {opacity: 0}, '-=0.5')
   
+// contact animations 
+
+const contactIntro = gsap.timeline({
+  scrollTrigger:{
+    trigger: '.projects',
+    start: 'top center',
+    toggleActions: "restart none none reset"
+  }
+})
+
+contactIntro.fromTo('.contact__header__text', {opacity: 0, y: '-50px'}, {duration: 0.4, opacity: 1, y: '0px'})
+            .fromTo('#saturn', {opacity: 0, y: '-70px'}, {duration: 0.4, opacity: 1, y: '0px'})
+            .fromTo('#falconheavy', {opacity: 0, y: '70px'}, {duration: 0.4, opacity: 1, y: '0px'})
+            .fromTo('#contact__laptop', {opacity: 0}, {duration: 0.4, opacity: 1})
+            .fromTo('.contact__header__span', {opacity: 0, y: '50px'}, {duration: 0.5, opacity: 1, y: '0px'}, '-=0.5')
+            .fromTo('.contact__header__span--shorter', {opacity: 0, y: '50px'}, {duration: 0.5, opacity: 1, y: '0px'})
+            .fromTo('.contact__header__span--shortest', {opacity: 0, y: '50px'}, {duration: 0.5, opacity: 1, y: '0px'})
 
 
 
+// contact hover animations (didn't work in pure css)
+
+const github =  document.getElementById('github');
+const saturn = document.getElementById('saturn')
+
+github.addEventListener('mouseover', function(){
+  saturn.classList.toggle('transform__scale')
+})
 
 
+github.addEventListener('mouseout', function(){
+  saturn.classList.toggle('transform__scale')
+})
 
+const facebook = document.getElementById('facebook');
+const flames = [document.querySelector('.falconheavy__vector38'), document.querySelector('.falconheavy__vector37'), document.querySelector('.falconheavy__vector36'), document.querySelector('.falconheavy__vector35')]
 
+facebook.addEventListener('mouseover', function(){
+  flames.forEach(flame => flame.classList.toggle('flame__fill'))
+})
 
+facebook.addEventListener('mouseout', function(){
+  flames.forEach(flame => flame.classList.toggle('flame__fill'))
+})
+
+const linkedin = document.getElementById('linkedin')
+const upperCircle = document.querySelector('.laptop__vector118')
+const bottomCircle = document.querySelector('.laptop__vector119')
+
+linkedin.addEventListener('mouseover', function(){
+  upperCircle.classList.toggle('transform__up')
+  bottomCircle.classList.toggle('transform__down')
+})
+
+linkedin.addEventListener('mouseout', function(){
+  upperCircle.classList.toggle('transform__up')
+  bottomCircle.classList.toggle('transform__down')
+})
 
 
 

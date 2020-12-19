@@ -17,6 +17,7 @@
   background-attachment: fixed;
   background-size: cover;
   position: relative;
+  overflow: hidden;
 }
 
 .about .about__title {
@@ -58,7 +59,7 @@
 
 .about .about__title .about__title__span {
   width: 100%;
-  height: 2px;
+  height: 1px;
   background-color: #615ae9;
   position: relative;
 }
@@ -73,7 +74,7 @@
 
 .about .about__title .about__title__span--shortest {
   width: 25%;
-  height: 2px;
+  height: 1px;
   background-color: #615ae9;
   position: relative;
   top: 12px;
@@ -133,11 +134,11 @@
 
 .about .about__content .about__text .about__span {
   width: 30%;
-  height: 2px;
+  height: 1px;
   background-color: #615ae9;
   margin-bottom: 0px;
   margin-left: 50px;
-  margin-top: 10px;
+  margin-top: 8px;
   position: relative;
 }
 
@@ -149,11 +150,11 @@
 
 .about .about__content .about__text .about__span--shorter {
   width: 20%;
-  height: 1.5px;
+  height: 1px;
   background-color: #615ae9;
   margin-bottom: 0px;
   margin-left: 50px;
-  margin-top: 10px;
+  margin-top: 8px;
   position: relative;
   top: 3px;
 }
@@ -166,11 +167,11 @@
 
 .about .about__content .about__text .about__span--shortest {
   width: 10%;
-  height: 2px;
+  height: 1px;
   background-color: #615ae9;
   margin-bottom: 20px;
   margin-left: 50px;
-  margin-top: 10px;
+  margin-top: 8px;
   position: relative;
   top: 6px;
 }
