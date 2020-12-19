@@ -132,6 +132,12 @@
   }
 }
 
+@media screen and (max-width: 900px) {
+  .about .about__content .about__text .about__item {
+    font-size: 15px;
+  }
+}
+
 .about .about__content .about__text .about__span {
   width: 30%;
   height: 1px;
@@ -196,6 +202,12 @@
     margin-top: 0;
     z-index: 1111;
     color: black;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .about .about__content .about__text .about__cv {
+    margin-left: 20px;
   }
 }
 

@@ -51,7 +51,7 @@
         z-index: 1111;
 
         @media screen and (max-width: 900px) {
-            width: 105%;
+            width: 110%;
             overflow: hidden;
             right: 0;
             top: -50px;
@@ -80,12 +80,18 @@
                         .glide__slide__text__header{
                             margin: 10px auto;
                             font-family: 'Abril Fatface', cursive;
+                            @media screen and (max-width: 900px) {
+                                font-size: 20px;
+                            }
                         }
 
                         .glide__slide__text__content{
                             margin: 10px auto;
                             font-family: 'Abril Fatface', cursive;
                             width: 50%;
+                            @media screen and (max-width: 900px) {
+                                font-size: 10px;
+                            }
                         }
                     }
 

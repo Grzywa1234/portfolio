@@ -205,7 +205,7 @@ falcon9rocket.fromTo('.projects__svg__Vector48', {fill: 'red'}, {duration: 2, fi
 
 const contactIntro = gsap.timeline({
   scrollTrigger:{
-    trigger: '.projects',
+    trigger: '.contact',
     start: 'top center',
     toggleActions: "restart none none reset"
   }

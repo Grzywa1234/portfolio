@@ -60,7 +60,7 @@
 
 @media screen and (max-width: 900px) {
   .projects .glide {
-    width: 105%;
+    width: 110%;
     overflow: hidden;
     right: 0;
     top: -50px;
@@ -99,10 +99,22 @@
   font-family: 'Abril Fatface', cursive;
 }
 
+@media screen and (max-width: 900px) {
+  .projects .glide .glide__track .glide__slides .glide__slide .glide__slide__text .glide__slide__text__header {
+    font-size: 20px;
+  }
+}
+
 .projects .glide .glide__track .glide__slides .glide__slide .glide__slide__text .glide__slide__text__content {
   margin: 10px auto;
   font-family: 'Abril Fatface', cursive;
   width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+  .projects .glide .glide__track .glide__slides .glide__slide .glide__slide__text .glide__slide__text__content {
+    font-size: 10px;
+  }
 }
 
 .projects .glide .glide__track .glide__slides .glide__slide .glide__slide__link .glide__slide__link__live {

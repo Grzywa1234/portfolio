@@ -97,6 +97,9 @@
                     margin-right: 20px;
                     font-size: 20px;
                 }
+                @media screen and (max-width: 900px) {
+                    font-size: 15px;
+                }
             }
 
             .about__span{
@@ -155,6 +158,10 @@
                 margin-top: 0;
                 z-index: 1111;
                 color: black;
+            }
+
+            @media screen and (max-width: 900px) {
+                margin-left: 20px;
             }
 
             }
