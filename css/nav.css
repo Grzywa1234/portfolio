@@ -8,6 +8,7 @@ html{
     display: flex;
     justify-content: space-between;
     z-index: 11111;
+    opacity: 0;
 }
 
 .logo img{
