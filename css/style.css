@@ -96,9 +96,15 @@
 @media screen and (max-width: 1100px) {
   .hero .hero__images {
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     right: 10px;
     width: 70%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .hero .hero__images {
+    bottom: -20px;
   }
 }
 
@@ -110,7 +116,7 @@
 
 @media screen and (max-width: 1100px) {
   .hero .hero__images svg {
-    max-height: 30vh;
+    height: 30vh;
   }
 }
 /*# sourceMappingURL=style.css.map */

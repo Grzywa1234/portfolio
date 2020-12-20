@@ -20,18 +20,6 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 900px) {
-  .about {
-    height: 90vh;
-  }
-}
-
-@media screen and (max-width: 330px) {
-  .about {
-    height: 100vh;
-  }
-}
-
 .about .about__title {
   margin-top: 10vh;
   margin-bottom: 10vh;
@@ -58,13 +46,6 @@
   .about .about__title {
     margin-top: 5vh;
     margin-bottom: 5vh;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .about .about__title {
-    position: relative;
-    top: 30px;
   }
 }
 
