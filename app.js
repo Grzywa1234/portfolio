@@ -68,11 +68,11 @@ async function scene2() {
 
 function intro() {
   const tl = gsap.timeline({defaults: {ease: 'power1.out'}});
-  
+  /*
   tl.fromTo('.planeimg',{y: "-5%"}, {duration: 2, y: "5%", repeat: -1, yoyo: true})
   tl.to('.planeimg', {y: '-100%', opacity: 0, duration: 2})
   tl.to('.plane', {y: "-100%", duration: 1}, '-=1.15')
-  
+  */
   tl.fromTo(['.logo', '.header'], {opacity: 0}, {duration: 1.5, opacity: 1})
   tl.fromTo('.hero__images__controler', {opacity: 0, y: "-200px"}, {duration: 1.5, y: "0px", opacity: 1}, '-=1.5')
   tl.fromTo('.hero__hello__name', {y: "40%", opacity: 0}, {duration: 1, y: "0%", opacity: 1}, '-=1')

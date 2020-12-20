@@ -10,6 +10,10 @@
     flex-direction: column;
     align-items: center;
 
+    @media screen and (max-width: 900px) {
+        height: 80vh;
+    }
+
     .contact__header{
 
         .contact__header__text{

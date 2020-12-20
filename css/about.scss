@@ -12,6 +12,14 @@
     position: relative;
     overflow: hidden;
 
+    @media screen and (max-width: 900px) {
+        height: 85vh;
+    }
+
+    @media screen and (max-width: 330px) {
+        height: 100vh;
+    }
+
     .about__title{
         margin-top: 10vh;
         margin-bottom: 10vh;

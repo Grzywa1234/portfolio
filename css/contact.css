@@ -20,6 +20,12 @@
           align-items: center;
 }
 
+@media screen and (max-width: 900px) {
+  .contact {
+    height: 80vh;
+  }
+}
+
 .contact .contact__header .contact__header__text {
   font-size: 60px;
   margin-bottom: 5px;
