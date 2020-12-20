@@ -22,7 +22,7 @@
 
 @media screen and (max-width: 900px) {
   .about {
-    height: 85vh;
+    height: 90vh;
   }
 }
 
@@ -58,6 +58,13 @@
   .about .about__title {
     margin-top: 5vh;
     margin-bottom: 5vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .about .about__title {
+    position: relative;
+    top: 30px;
   }
 }
 

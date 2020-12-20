@@ -46,6 +46,13 @@
   }
 }
 
+@media screen and (max-width: 900px) {
+  .hero .hero__hello {
+    position: relative;
+    bottom: 40px;
+  }
+}
+
 .hero .hero__hello .hero__hello__name {
   margin-bottom: 70px;
   font-size: 90px;
@@ -98,6 +105,7 @@
 .hero .hero__images svg {
   width: 100%;
   background-color: transparent;
+  overflow: visible;
 }
 
 @media screen and (max-width: 1100px) {

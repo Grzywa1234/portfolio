@@ -13,7 +13,7 @@
     overflow: hidden;
 
     @media screen and (max-width: 900px) {
-        height: 85vh;
+        height: 90vh;
     }
 
     @media screen and (max-width: 330px) {
@@ -30,6 +30,7 @@
             margin-top: 5vh;
             margin-bottom: 5vh;
         }
+
 
         .about__title__h1{
             font-family: 'Abril Fatface', cursive;

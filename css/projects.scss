@@ -18,7 +18,11 @@
             margin-bottom: 5px;
             margin-top: 30px;
             font-family: 'Abril Fatface', cursive;
+            @media screen and (max-width: 900px) {
+                margin-top: 10px;
+            }
         }
+       
 
         .projects__header__span{
             width: 100%;
@@ -168,7 +172,7 @@
             transition: .3s;
 
             @media screen and (max-width: 900px) {
-                width: 35px;
+                width: 30px;
             }
         }
 
