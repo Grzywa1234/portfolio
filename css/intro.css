@@ -11,7 +11,7 @@ svg{
 }
 
 .plane{
-    display: none;
+    display: flex; /* "none" to hide loader */
     position: fixed;
     text-align: center;
     align-items: center;

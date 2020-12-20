@@ -82,8 +82,8 @@
 }
 
 .transform__scale{
-    transform: scale(1.2);
-}
+    transform: scale(1.2) !important;
+} 
 
 .flame__fill{
     fill: url(#paint2_linear);
