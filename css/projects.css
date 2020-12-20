@@ -192,6 +192,10 @@
 @media screen and (max-width: 900px) {
   .projects .projects__stack {
     bottom: 0px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 }
 
@@ -202,9 +206,16 @@
   transition: .3s;
 }
 
+@media screen and (max-width: 1100px) {
+  .projects .projects__stack .projects__stack__img {
+    width: 60px;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .projects .projects__stack .projects__stack__img {
     width: 30px;
+    margin-right: 5px;
   }
 }
 
