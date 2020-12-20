@@ -49,7 +49,7 @@
 @media screen and (max-width: 900px) {
   .hero .hero__hello {
     position: relative;
-    bottom: 40px;
+    bottom: 60px;
   }
 }
 
